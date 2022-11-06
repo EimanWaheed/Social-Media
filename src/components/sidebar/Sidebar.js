@@ -1,6 +1,11 @@
 import React from "react";
 import * as MuiIcons from "@material-ui/icons";
 
+/**
+ * This component is responsible for displaying left side of homepage panel.
+ * @param {className} string class name passed as props
+ * @returns
+ */
 export default function Sidebar({ className }) {
   const sidebarList = {
     RssFeed: "Feed",
