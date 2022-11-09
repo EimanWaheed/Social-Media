@@ -20,7 +20,7 @@ export default function Sidebar({ className }) {
   };
   return (
     <div className={className}>
-      <ul className="flex flex-col my-4 ml-4">
+      <ul className="flex flex-col my-4 ml-4 mr-4">
         {Object.keys(sidebarList).map((userIcon, index) => {
           const SelectedIcon = MuiIcons[userIcon];
           return (
@@ -30,6 +30,51 @@ export default function Sidebar({ className }) {
             </li>
           );
         })}
+        <button className="bg-gray-300 p-3 rounded-xl">Show more</button>
+        <hr class="my-8 h-px bg-gray-200 border-0 bg-gray-300" />
+        {/* Friends' list */}
+        <li className="flex items-center mb-6">
+          <img
+            className="h-8 w-8 object-cover rounded-full"
+            src="/assets/person/1.jpeg"
+          ></img>
+          <span className="pl-4">Eiman Waheed</span>
+        </li>
+        <li className="flex items-center mb-6">
+          <img
+            className="h-8 w-8 object-cover rounded-full"
+            src="/assets/person/1.jpeg"
+          ></img>
+          <span className="pl-4">Eiman Waheed</span>
+        </li>
+        <li className="flex items-center mb-6">
+          <img
+            className="h-8 w-8 object-cover rounded-full"
+            src="/assets/person/1.jpeg"
+          ></img>
+          <span className="pl-4">Eiman Waheed</span>
+        </li>
+        <li className="flex items-center mb-6">
+          <img
+            className="h-8 w-8 object-cover rounded-full"
+            src="/assets/person/1.jpeg"
+          ></img>
+          <span className="pl-4">Eiman Waheed</span>
+        </li>
+        <li className="flex items-center mb-6">
+          <img
+            className="h-8 w-8 object-cover rounded-full"
+            src="/assets/person/1.jpeg"
+          ></img>
+          <span className="pl-4">Eiman Waheed</span>
+        </li>
+        <li className="flex items-center mb-6">
+          <img
+            className="h-8 w-8 object-cover rounded-full"
+            src="/assets/person/1.jpeg"
+          ></img>
+          <span className="pl-4">Eiman Waheed</span>
+        </li>
       </ul>
     </div>
   );

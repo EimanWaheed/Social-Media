@@ -9,7 +9,7 @@ export default function Homepage() {
     <>
       <Topbar />
       <div className="flex h-[calc(100vh-48px)]">
-        <Sidebar className="w-1/3" />
+        <Sidebar className="w-1/3 overflow-scroll" />
         <Feed className="w-2/3" />
         <Rightbar className="w-1/3" />
       </div>
