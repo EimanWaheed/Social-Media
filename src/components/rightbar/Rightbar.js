@@ -12,7 +12,10 @@ export default function Rightbar({ className }) {
       </div>
 
       {/* add picture */}
-      <img className="rounded-xl object-cover mb-8" src="assets/ad.png"></img>
+      <img
+        className="rounded-xl object-cover h-1/2 mb-8"
+        src="assets/ad.jpeg"
+      ></img>
 
       {/* online friends list */}
       <div className="flex flex-col shadow-xl rounded-xl pl-2 h-fit">
