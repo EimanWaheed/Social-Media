@@ -35,45 +35,45 @@ export default function Sidebar({ className }) {
         {/* Friends' list */}
         <li className="flex items-center mb-6">
           <img
-            className="h-8 w-8 object-cover rounded-full"
+            className="h-12 w-12 object-cover rounded-full"
             src="/assets/person/1.jpeg"
           ></img>
-          <span className="pl-4">Eiman Waheed</span>
+          <span className="text-base pl-2">Eiman Waheed</span>
         </li>
         <li className="flex items-center mb-6">
           <img
-            className="h-8 w-8 object-cover rounded-full"
+            className="h-12 w-12 object-cover rounded-full"
             src="/assets/person/1.jpeg"
           ></img>
-          <span className="pl-4">Eiman Waheed</span>
+          <span className="text-base pl-2">Eiman Waheed</span>
         </li>
         <li className="flex items-center mb-6">
           <img
-            className="h-8 w-8 object-cover rounded-full"
+            className="h-12 w-12 object-cover rounded-full"
             src="/assets/person/1.jpeg"
           ></img>
-          <span className="pl-4">Eiman Waheed</span>
+          <span className="text-base pl-2">Eiman Waheed</span>
         </li>
         <li className="flex items-center mb-6">
           <img
-            className="h-8 w-8 object-cover rounded-full"
+            className="h-12 w-12 object-cover rounded-full"
             src="/assets/person/1.jpeg"
           ></img>
-          <span className="pl-4">Eiman Waheed</span>
+          <span className="text-base pl-2">Eiman Waheed</span>
         </li>
         <li className="flex items-center mb-6">
           <img
-            className="h-8 w-8 object-cover rounded-full"
+            className="h-12 w-12 object-cover rounded-full"
             src="/assets/person/1.jpeg"
           ></img>
-          <span className="pl-4">Eiman Waheed</span>
+          <span className="text-base pl-2">Eiman Waheed</span>
         </li>
         <li className="flex items-center mb-6">
           <img
-            className="h-8 w-8 object-cover rounded-full"
+            className="h-12 w-12 object-cover rounded-full"
             src="/assets/person/1.jpeg"
           ></img>
-          <span className="pl-4">Eiman Waheed</span>
+          <span className="text-base pl-2">Eiman Waheed</span>
         </li>
       </ul>
     </div>

@@ -18,7 +18,7 @@ export default function ShareBox({ className }) {
     <div className={className}>
       <div className="flex items-center justify-left mt-4 mx-4">
         <img
-          className="h-10 w-12 object-cover rounded-full"
+          className="h-12 w-12 object-cover rounded-full"
           src="/assets/person/1.jpeg"
         ></img>
         <input

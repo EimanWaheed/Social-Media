@@ -22,6 +22,10 @@ export default function Topbar() {
           iconClassName="absolute text-black bottom-4 text-sm items-center justify-center bg-orange-700 left-4 flex w-4 h-4 rounded-full"
         ></TopbarBadges>
       </div>
+      <img
+        class="ml-auto mr-4 h-10 w-12 object-cover rounded-full"
+        src="/assets/person/1.jpeg"
+      ></img>
     </div>
   );
 }
