@@ -13,7 +13,7 @@ export default function Rightbar({ className }) {
 
       {/* add picture */}
       <img
-        className="rounded-xl object-cover h-1/2 mb-8"
+        className="rounded-xl object-cover mb-8 h-1/2"
         src="assets/ad.jpeg"
       ></img>
 
