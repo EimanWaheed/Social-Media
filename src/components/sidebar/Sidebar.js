@@ -30,7 +30,7 @@ export default function Sidebar({ className }) {
             </li>
           );
         })}
-        <button className="bg-gray-300 p-3 rounded-xl">Show more</button>
+        <button className="bg-gray-300 p-3 rounded-xl w-2/3">Show more</button>
         <hr class="my-8 h-px bg-gray-200 border-0 bg-gray-300" />
         {/* Friends' list */}
         <li className="flex items-center mb-6">
