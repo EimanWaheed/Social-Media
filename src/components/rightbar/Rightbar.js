@@ -19,7 +19,7 @@ export default function Rightbar({ className }) {
       ></img>
 
       {/* online friends list */}
-      <div className="flex flex-col shadow-xl rounded-xl pl-2 h-96 overflow-scroll">
+      <div className="flex flex-col shadow-xl rounded-xl p-2 h-[calc(100%-525px)] overflow-scroll">
         <span className="text-lg font-bold mb-2">Online Friends</span>
         {Users.map((user) => {
           return (
