@@ -1,4 +1,6 @@
 import React from "react";
+import User from "../users/User";
+import { Users } from "../../DummyData";
 import * as MuiIcons from "@material-ui/icons";
 
 /**
@@ -33,48 +35,16 @@ export default function Sidebar({ className }) {
         <button className="bg-gray-300 p-3 rounded-xl w-2/3">Show more</button>
         <hr class="my-8 h-px bg-gray-200 border-0 bg-gray-300" />
         {/* Friends' list */}
-        <li className="flex items-center mb-6">
-          <img
-            className="h-12 w-12 object-cover rounded-full"
-            src="/assets/person/1.jpeg"
-          ></img>
-          <span className="text-base pl-2">Eiman Waheed</span>
-        </li>
-        <li className="flex items-center mb-6">
-          <img
-            className="h-12 w-12 object-cover rounded-full"
-            src="/assets/person/1.jpeg"
-          ></img>
-          <span className="text-base pl-2">Eiman Waheed</span>
-        </li>
-        <li className="flex items-center mb-6">
-          <img
-            className="h-12 w-12 object-cover rounded-full"
-            src="/assets/person/1.jpeg"
-          ></img>
-          <span className="text-base pl-2">Eiman Waheed</span>
-        </li>
-        <li className="flex items-center mb-6">
-          <img
-            className="h-12 w-12 object-cover rounded-full"
-            src="/assets/person/1.jpeg"
-          ></img>
-          <span className="text-base pl-2">Eiman Waheed</span>
-        </li>
-        <li className="flex items-center mb-6">
-          <img
-            className="h-12 w-12 object-cover rounded-full"
-            src="/assets/person/1.jpeg"
-          ></img>
-          <span className="text-base pl-2">Eiman Waheed</span>
-        </li>
-        <li className="flex items-center mb-6">
-          <img
-            className="h-12 w-12 object-cover rounded-full"
-            src="/assets/person/1.jpeg"
-          ></img>
-          <span className="text-base pl-2">Eiman Waheed</span>
-        </li>
+        {Users.map((user) => {
+          return (
+            <li className="flex items-center mb-6">
+              <User
+                userName={user.username}
+                profilePicture={user.profilePicture}
+              />
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

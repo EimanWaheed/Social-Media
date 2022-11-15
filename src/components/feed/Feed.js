@@ -7,7 +7,6 @@ export default function Feed({ className }) {
     <div className={className}>
       <ShareBox className="h-fit m-4 flex flex-col box-content border rounded-xl shadow-xl border-solid border-white" />
       <Post className="h-fit m-4 flex flex-col box-content border rounded-xl shadow-xl border-solid border-white" />
-      <Post className="h-fit m-4 flex flex-col box-content border rounded-xl shadow-xl border-solid border-white" />
     </div>
   );
 }
