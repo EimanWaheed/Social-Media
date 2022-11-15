@@ -4,7 +4,7 @@ import SearchBar from "./SearchBar";
 
 export default function Topbar() {
   return (
-    <div className="flex h-12 bg-blue-600 items-center">
+    <div className="flex h-12 w-full bg-blue-600 items-center fixed z-10">
       <h1 className="uppercase font-bold text-white mx-2">eimansocial</h1>
       <SearchBar />
       {/* Pages */}
