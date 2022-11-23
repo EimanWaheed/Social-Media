@@ -39,6 +39,7 @@ export default function Sidebar({ className }) {
           return (
             <li className="flex items-center mb-6">
               <User
+                imgClassName="rounded-full h-12 w-12"
                 userName={user.username}
                 profilePicture={user.profilePicture}
               />
